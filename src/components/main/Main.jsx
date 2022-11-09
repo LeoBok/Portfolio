@@ -39,12 +39,12 @@ const Main = () => {
             <section className="py-10">
                 <h2 className="text-2xl">Technologies that I know:</h2>
                 <ul className="text-4xl py-5 grid grid-cols-2 grid-rows-2 place-content-center gap-y-5">
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <FaHtml5 /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <FaCss3Alt /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <SiTailwindcss /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <FaSass /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <SiJavascript /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black"> <FaReact /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaHtml5 /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaCss3Alt /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <SiTailwindcss /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaSass /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <SiJavascript /> </li>
+                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaReact /> </li>
                 </ul>
             </section>
         </main>
