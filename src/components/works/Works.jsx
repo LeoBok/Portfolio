@@ -5,7 +5,7 @@ const Works = () => {
   return (
     <section className="flex flex-col justify-center items-center">
         <h2 className="text-2xl">My personal projects:</h2>
-        <ul className="grid grid-cols-1 grid-rows-1 place-content-center">
+        <ul className="grid grid-cols-1 grid-rows-1 place-content-center space-y-7">
           {
             imgArray.map(item => (
               <li className="px-7 py-4 space-y-5 shadow-lg dark:shadow-black rounded-md" key={item.id}>
