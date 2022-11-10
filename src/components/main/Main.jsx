@@ -2,12 +2,7 @@ import {
     FaLinkedin,
     FaGithub,
     FaInstagram,
-    FaHtml5,
-    FaCss3Alt,
-    FaReact,
-    FaSass
 } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import Avatar from "../../utilities/images/avatar.png"
 
 const Main = () => {
@@ -36,17 +31,6 @@ const Main = () => {
                 alt="My own avatar"
                 className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 object-cover mt-10"
             />
-            <section className="py-10">
-                <h2 className="text-2xl">Technologies that I know:</h2>
-                <ul className="text-4xl py-5 grid grid-cols-2 grid-rows-2 place-content-center gap-y-5">
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaHtml5 /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaCss3Alt /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <SiTailwindcss /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaSass /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <SiJavascript /> </li>
-                    <li className="mx-auto p-5 shadow-lg dark:shadow-black rounded-md"> <FaReact /> </li>
-                </ul>
-            </section>
         </main>
     )
 }

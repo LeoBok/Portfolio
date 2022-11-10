@@ -6,7 +6,7 @@ const Hamburger = () => {
         setIsOpen(prevIsOpen => !prevIsOpen);
     }
     return (
-        <div onClick={handleIsOpen} className="rounded border border-slate-900 dark:border-slate-50 p-1">
+        <div onClick={handleIsOpen} className="">
             <span className={`w-8 h-1 block mb-1 bg-gray-900 dark:bg-slate-50 rounded transition ease-in-out duration-500 ${isOpen ? `-rotate-45 translate-y-2` : ``}`}></span>
             <span className={`w-8 h-1 mt-1 mb-1 block bg-gray-900 dark:bg-slate-50 rounded transition ease-in-out duration-500 ${isOpen ? `bg-transparent dark:bg-transparent` : ``}`}></span>
             <span className={`w-8 h-1 mt-1 block bg-gray-900 dark:bg-slate-50 rounded transition ease-in-out duration-500 ${isOpen ? `rotate-45 -translate-y-2` : ``}`}></span>

@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './App.css';
+import Experience from './components/experience/Experience';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
+import Works from './components/works/Works';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -15,6 +17,8 @@ function App() {
           />
       </header>
       <Main />
+      <Experience />
+      <Works />
       </div>
     </div>
   );
