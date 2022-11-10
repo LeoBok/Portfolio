@@ -14,8 +14,8 @@ const Works = () => {
                   src={item.imgSource}
                 />
                 <p className="flex flex-row">
-                  <a className="flex flex-row items-center bg-teal-500 py-2 px-3" href={item.link} target="_blank" rel="noreferrer">
-                   Watch Live <BsArrowUpShort className="ml-1 w-6 h-6 hover:rotate-90 duration-500 focus:bg-teal-600" />
+                  <a className="flex flex-row items-center bg-teal-500 active:bg-teal-600 py-2 px-3" href={item.link} target="_blank" rel="noreferrer">
+                   Watch Live <BsArrowUpShort className="ml-1 w-6 h-6 hover:rotate-90 active:rotate-90 duration-500" />
                   </a>
                 </p>
               </li>
