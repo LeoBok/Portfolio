@@ -15,7 +15,7 @@ const Works = () => {
                 />
                 <p className="flex flex-row">
                   <a className="flex flex-row items-center bg-teal-500 py-2 px-3" href={item.link} target="_blank" rel="noreferrer">
-                   Watch Live <BsArrowUpShort className="ml-1 w-5 h-5 duration-500 hover:rotate-90" />
+                   Watch Live <BsArrowUpShort className="ml-1 w-6 h-6 hover:rotate-90 duration-500 focus:bg-teal-600" />
                   </a>
                 </p>
               </li>
