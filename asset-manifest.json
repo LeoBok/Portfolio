@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.adf6dd49.css",
-    "main.js": "/Portfolio/static/js/main.750330c1.js",
+    "main.css": "/Portfolio/static/css/main.8ba76556.css",
+    "main.js": "/Portfolio/static/js/main.93244973.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/global-warming-screenshot.png": "/Portfolio/static/media/global-warming-screenshot.eaad273598b0c83da635.png",
     "static/media/recipes-app-screenshot.png": "/Portfolio/static/media/recipes-app-screenshot.61e6f6d44f39fb9cbbb5.png",
     "static/media/air-quality-screenshot.png": "/Portfolio/static/media/air-quality-screenshot.ca2a2672b81f2f1f7972.png",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.96fe79664ed9e871bb6f.png",
     "index.html": "/Portfolio/index.html",
-    "main.adf6dd49.css.map": "/Portfolio/static/css/main.adf6dd49.css.map",
-    "main.750330c1.js.map": "/Portfolio/static/js/main.750330c1.js.map",
+    "main.8ba76556.css.map": "/Portfolio/static/css/main.8ba76556.css.map",
+    "main.93244973.js.map": "/Portfolio/static/js/main.93244973.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adf6dd49.css",
-    "static/js/main.750330c1.js"
+    "static/css/main.8ba76556.css",
+    "static/js/main.93244973.js"
   ]
 }
