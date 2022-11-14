@@ -1,6 +1,7 @@
 import air_quality from "../images/air-quality-screenshot.png";
 import recipes_app from '../images/recipes-app-screenshot.png';
 import global_warming from '../images/global-warming-screenshot.png'
+import interview_exercise from '../images/interview-exercise-screenshot.png'
 
 export const imgArray = [
     {
@@ -20,5 +21,11 @@ export const imgArray = [
         title: "Global Warming app",
         imgSource: global_warming,
         link: "https://leobok.github.io/global-warming-app/"
+    },
+    {
+        id: 4,
+        title: "Interview exercise",
+        imgSource: interview_exercise,
+        link: "https://github.com/LeoBok/aalto-interview"
     }
 ]
