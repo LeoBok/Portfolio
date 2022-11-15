@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import ContactMe from './components/contact me/Contact_Me';
 import Experience from './components/experience/Experience';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
@@ -19,6 +20,7 @@ function App() {
       <Main />
       <Experience />
       <Works />
+      <ContactMe />
       </div>
     </div>
   );
