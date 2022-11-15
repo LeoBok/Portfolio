@@ -11,7 +11,7 @@ const Works = () => {
         <ul className="lg:px-20 grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 place-items-center gap-10">
           {
             imgArray.map(item => (
-              <li onMouseEnter={() => setIdNum(item.id)} onMouseLeave={() => setIdNum(null)} className={`p-6 space-y-6 shadow-lg dark:shadow-black sm:max-w-xl lg:w-lg ${item.id === idNum ? `opacity-100 transition duration-500 ease-in-out` : `opacity-70` }`} key={item.id}>
+              <li onMouseEnter={() => setIdNum(item.id)} onMouseLeave={() => setIdNum(null)} className={`p-6 space-y-6 shadow-lg dark:shadow-black sm:max-w-xl lg:w-lg ${item.id === idNum ? `opacity-100 transition duration-300 ease-in-out` : `lg:opacity-70` }`} key={item.id}>
                 <h2 className="text-xl">{item.title}</h2>
                 <img
                   src={item.imgSource}
