@@ -15,7 +15,7 @@ const Experience = () => {
                 <BiCodeCurly />
                 <h2 className="pl-3">Frontend developer experience:</h2>
             </div>
-                    
+
             <ul className="text-4xl py-5 grid grid-cols-3 grid-rows-3 gap-7 place-content-center">
                 <li className="p-5 mx-auto shadow-lg dark:shadow-black rounded-md"> <FaHtml5 /> </li>
                 <li className="p-5 mx-auto shadow-lg dark:shadow-black rounded-md"> <FaCss3Alt /> </li>

@@ -18,7 +18,7 @@ const Works = () => {
                   alt={item.title}
                 />
                 <p className="flex items-center">
-                  <a className="text-xs py-2 px-2 bg-teal-500 active:bg-teal-600 rounded-sm" href={item.link} target="_blank" rel="noreferrer">
+                  <a className="text-xs flex py-2 px-2 bg-teal-500 active:bg-teal-600 rounded-sm" href={item.link} target="_blank" rel="noreferrer">
                     Watch Live <BsArrowUpShort className="flex hover:rotate-90 active:rotate-90 duration-500 w-4 h-4" />
                   </a>
                 </p>
